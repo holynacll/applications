@@ -1,0 +1,14 @@
+install jmeter
+
+1 - apt-get update -y
+2 - apt-get install openjdk-8-jdk -y
+3 - java -version
+4 - apt-get install apache2 -y
+5 - systemctl start apache2
+6 - systemctl enable apache2
+7 - wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.3.zip
+8 - unzip apache-jmeter-5.3.zip
+9 - cd apache-jmeter-5.3/bin
+10 - ./jmeter
+
+https://dev.to/hitjethva/how-to-install-apache-jmeter-on-ubuntu-20-04-2di9
